@@ -72,7 +72,7 @@
 }
 
 .myFont{
-    font-family: 'Ethnocentric';
+    font-family: 'Ethnocentric', sans-serif;
     font-size: 22px;
     color: white;
     margin-top: -70px;
@@ -124,7 +124,7 @@ body{
 }
 
 #head{
-    font-family: 'Ethnocentric';
+    font-family: 'Ethnocentric', sans-serif;
     font-size: 70px;
 }
 
@@ -158,4 +158,5 @@ body{
         opacity: 2;
     }
 }
+
 
