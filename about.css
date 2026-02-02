@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('fonts/Ethnocentric.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.Header{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #444;
+    color: white;
+    margin-top: 20px;
+    padding-top: 15px ;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #252525;
+
+    animation: slidehead 1.5s ease-out backwards;
+}
+
+.Footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px; 
+    align-items: center;
+}
+
+.footerText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.itema{
+    text-decoration: none;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 130px;
+    background-color: gray;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px 5px rgb(255, 255, 255); 
+    align-items: center;
+}
+
+
+
+#imageSize{
+    width: 450px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px 5px rgb(91, 90, 90); 
+
+}
+
+
+
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.myFont{
+    font-family: 'Ethnocentric';
+    font-size: 22px;
+    color: white;
+    margin-top: -70px;
+    text-align: center;
+}
+
+.sentence{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 19px;
+    margin-bottom: -100px;
+}
+
+.item {
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 30px;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 130px;
+    background-color: gray;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px 5px rgb(255, 255, 255);
+}
+
+.col-sm-3{
+    margin-bottom: 50px;
+    
+}
+
+.card-body{
+    background-color: #a4a4a4;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+body{
+    background:
+      url(BG.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #252525;
+    margin-bottom: 80px;
+
+    animation: bgslide 1.5s ease-out forwards;
+}
+
+#head{
+    font-family: 'Ethnocentric';
+    font-size: 70px;
+}
+
+#par{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+
+@keyframes slidehead {
+    0% {
+        background-position: -200px;
+        opacity: 0;
+    }
+
+    100% {
+        background-position: center;
+        opacity: 1;
+    }
+}
+
+@keyframes bgslide {
+    0% {
+        background-position: center -200px;
+        opacity: 0;
+    }
+
+    100% {
+        background-position: center;
+        opacity: 2;
+    }
+}
+

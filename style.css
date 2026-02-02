@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('fonts/Ethnocentric.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'playwrite us trad';
+  src: url('fonts/PlaywriteUSTrad.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+    font-size: 80px;
+    color: white;
+    font-family: 'playwrite us trad';
+    margin-top: 130px;
+    margin-left: 120px;
+    
+}
+
+.name {
+  font-size: 55px;
+  color: white;
+  font-family: old english text mt;
+  margin-top: 100px;
+  margin-left: 110px;
+}
+
+.line {
+  width: 500px;
+  height: 2px;
+  background-color: white;
+  margin: 5px ; /* centers the line horizontally */
+  margin-left: 130px;
+  border-radius: 3px;
+}
+
+.role {
+  font-size: 20px;
+  font-family: 'Ethnocentric';
+  color: white;
+  margin-left: 215px;
+  margin-top: 10px;
+}
+
+.profileImage {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    z-index: 10;
+
+    animation: SlidePic 1s ease-in backwards;
+    
+}
+
+.img {
+    border-radius: 180px;
+    width: 310px;
+}
+
+body {
+    background: 
+      linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 30%),
+      url(BG.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: SlideGrad 1.5s ease-out forwards;
+
+}
+
+.navbar {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  z-index: 10; /* make sure it stays on top */
+  animation: SlideButton 2s ease-out forwards;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #b3b3b3; /* subtle hover color */
+}
+
+.navbar .btn {
+  padding: 8px 16px;
+  background: #444;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.navbar .btn:hover {
+  background: #666;
+}
+
+
+@keyframes SlideButton{
+  0% {
+    background-position: center -200px;
+    opacity: 0;
+  }
+
+  50% {
+    background-position: center -200px;
+    opacity: 0;
+  }
+
+  100% {
+    background-position: center;
+    opacity: 1;
+  }
+}
+
+@keyframes SlideGrad{
+  0% {
+    background-position: center -200px; /* starts above screen */
+    opacity: 0;
+  }
+
+  100% {
+    background-position: center top;    /* slides into place */
+    opacity: 1;
+  }
+}
+
+@keyframes SlidePic{
+  0% {
+    background-position: center -200px;
+    opacity: 0;
+  }
+
+  100% {
+    background-position: center top;
+    opacity: 2;
+  }
+}
