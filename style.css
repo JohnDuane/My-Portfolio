@@ -40,7 +40,7 @@
 
 .role {
   font-size: 20px;
-  font-family: 'Ethnocentric';
+  font-family: 'Ethnocentric', sans-serif;
   color: white;
   margin-left: 215px;
   margin-top: 10px;
@@ -147,3 +147,4 @@ body {
     opacity: 2;
   }
 }
+
