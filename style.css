@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Ethnocentric';
-  src: url('fonts/Ethnocentric.otf') format('truetype');
+  src: url('Ethnocentric.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'playwrite us trad';
-  src: url('fonts/PlaywriteUSTrad.ttf') format('truetype');
+  src: url('PlaywriteUSTrad.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -147,5 +147,6 @@ body {
     opacity: 2;
   }
 }
+
 
 
